@@ -113,6 +113,10 @@
 .product-card:hover {
   transform: translateY(-15px);
 }
+.product-card:active {
+  transform: scale(0.99);
+  transition: all 100ms linear;
+}
 .product-image-wrapper {
   position: relative;
 }
