@@ -108,6 +108,10 @@
 .product-card {
   width: 224px;
   cursor: pointer;
+  transition: all 200ms linear;
+}
+.product-card:hover {
+  transform: translateY(-15px);
 }
 .product-image-wrapper {
   position: relative;
@@ -115,6 +119,9 @@
 .product-image {
   width: 100%;
   height: 280px;
+}
+.product-image:hover {
+  opacity: 65%;
 }
 .wishlist-btn {
   position: absolute;
@@ -126,7 +133,7 @@
   cursor: pointer;
 }
 .wishlist-btn:hover {
-  color: #7000ff;
+  color: red;
 }
 .badge {
   position: absolute;
@@ -204,7 +211,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.cart-btn:hover {
+  color: #7000ff;
+  border-color: #7000ff;
+}
 .load-more-container {
   width: 100%;
   padding: 20px 60px;
@@ -236,6 +246,10 @@
   justify-content: center;
   margin-top: 150px;
   margin-bottom: 150px;
+}
+.banner img:hover {
+  opacity: 95%;
+  cursor: pointer;
 }
 footer {
   width: 100%;
